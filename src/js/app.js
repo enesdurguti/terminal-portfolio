@@ -58,7 +58,7 @@ const allCommands = [
     {
         name: 'contact',
         func: function () {
-            let contactElement = `<div class="xl:w-[45em] 2xl:w-[60rem]">
+            let contactElement = `<div class="max-w-[60rem] w-full">
                                         <p class="text-white font-semibold tracking-wide">use flags for opening different contact options: e.g. [contact --email]
                                             <a href="https://github.com/enesdurguti/" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-brands fa-github mr-1" title="GitHub"></i>github</a>,
                                             <a href="https://www.linkedin.com/in/enes-durguti-55a9171a9/" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-brands fa-linkedin mr-1" title="LinkedIn"></i>linkedin</a>,
@@ -66,7 +66,7 @@ const allCommands = [
                                             <a href="https://www.instagram.com/enesdurguti/" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-brands fa-instagram mr-1" title="Instagram"></i>instagram</a>,
                                             <a href="https://www.facebook.com/profile.php?id=100012551088973" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-brands fa-facebook mr-1" title="Facebook"></i>facebook</a>,
                                             <a href="https://open.spotify.com/user/3fmi4xgtuwsrhp1eyo7vci35k" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-brands fa-spotify mr-1" title="Spotify"></i>spotify</a>,
-                                            <a href="mailTo: enesdurguti99@gmail.com" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-solid fa-envelope mr-1" title="Email"></i>email</a>,
+                                            <a href="mailTo: enesdurguti99@gmail.com" target="_blank" class="hover:underline hover:text-primary duration-150 ease-in"><i class="fa-solid fa-envelope mr-1" title="Email"></i>email</a>.
                                         </p>
                                     </div>`;
             terminal.insertAdjacentHTML('beforeend', contactElement);
@@ -118,7 +118,7 @@ const allCommands = [
         name: 'skills',
         func: function () {
             let skillElement = `<div class="w-full flex items-center">
-                                    <p class="text-white font-semibold tracking-wide break-all">Soon</p>
+                                    <p class="text-white font-semibold tracking-wide">In the past couple of years I have managed to develop skills in these technologies: HTML, CSS, SASS, Tailwind, JavaScript, AplineJs, PHP, Laravel, and WordPress, I also am constantly working on expanding my skills in technologies such as NodeJs and VueJs.</p>
                                 </div>`;
             terminal.insertAdjacentHTML('beforeend', skillElement);
         }
@@ -135,8 +135,11 @@ const allCommands = [
     {
         name: 'about',
         func: function () {
-            let aboutElement = `<div class="w-full flex items-center">
-                                    <p class="text-white font-semibold tracking-wide break-all">Soon</p>
+            let aboutElement = `<div class="w-full grid gap-y-5">
+                                    <p class="text-white font-semibold tracking-wide">Hi, I am Enes Durguti.</p>
+                                    <p class="text-white font-semibold tracking-wide">As a web developer, I am passionate about creating engaging, user-friendly websites. With nearly a year of experience, I have expertise in various technologies, including HTML, CSS, Tailwind, JavaScript, PHP, Laravel, and WordPress.</p>
+                                    <p class="text-white font-semibold tracking-wide">I am a detail-oriented and organized individual, with a strong focus on delivering high-quality work on time. I am constantly learning and staying up-to-date with the latest technologies and best practices in web development.</p>
+                                    <p class="text-white font-semibold tracking-wide">In my current role as a web developer at StarLabs, I am responsible for the development and maintenance of a variety of websites. I have also worked closely with clients to understand their needs and deliver solutions that meet their requirements and exceed their expectations.</p>
                                 </div>`;
             terminal.insertAdjacentHTML('beforeend', aboutElement);
         }
