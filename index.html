@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0df0bd446.js" crossorigin="anonymous"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-bgBody overflow-x-hidden">
+    <section class="w-full h-screen p-2 main-section">
+        <div class="w-full h-full px-5 border-2 border-primary rounded overflow-y-scroll terminal">
+            <div class="w-full flex flex-col md:flex-row md:items-center">
+                <p class="text-white font-semibold tracking-wide"><span class="text-primary">enesdurguti.dev</span>@guest: $ ~   </p>
+
+                <div class="md:flex-1">
+                    <input type="text" value="banner" id="command-1" class="w-full py-2 md:p-2 text-primary font-semibold tracking-wide bg-transparent outline-none focus:ring-0" readonly autocomplete="off">
+                </div>
+            </div>
+
+<pre class="mt-4 text-white">
+███████╗███╗   ██╗███████╗███████╗
+██╔════╝████╗  ██║██╔════╝██╔════╝
+█████╗  ██╔██╗ ██║█████╗  ███████╗
+██╔══╝  ██║╚██╗██║██╔══╝  ╚════██║
+███████╗██║ ╚████║███████╗███████║
+╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝
+</pre>
+
+            <p class="mt-5 text-white font-semibold tracking-wide">Type 'help' to see the list of avaliable commands.</p>
+            <p class="text-white font-semibold tracking-wide">--</p>
+
+            <div class="w-full flex flex-col md:flex-row md:items-center">
+                <p class="text-white font-semibold tracking-wide"><span class="text-primary">enesdurguti.dev</span>@guest: $ ~   </p>
+
+                <div class="md:flex-1">
+                    <input type="text" id="command-2" spellcheck="false" maxlength="50" class="w-full py-2 md:p-2 text-white font-semibold tracking-wide bg-transparent outline-none focus:ring-0" autofocus autocomplete="off">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
